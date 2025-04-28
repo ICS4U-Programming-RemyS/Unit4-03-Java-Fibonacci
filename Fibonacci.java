@@ -76,13 +76,13 @@ final class Fibonacci {
                         // Restarts the loop if the number is negative
                         continue;
                     } else {
-                        // Call the recFactorial method
-                        int valueFibb = recFib(number);
+                        // Call the recFib method
+                        int valueFib = recFib(number);
 
                         // Add the Fibonacci result to the output string
                         outputStr += "The value in the Fibonacci Sequence at "
                                 + number
-                                + " = " + valueFibb
+                                + " = " + valueFib
                         + "\n";
                     }
 
@@ -100,8 +100,8 @@ final class Fibonacci {
         // Write the output string to output.txt
         outputWriter.write(outputStr);
 
-        // Print the factorial results to the console
-        System.out.println("Factorial results written to output.txt.");
+        // Print the Fibonacci results to the console
+        System.out.println("Fibonacci results written to output.txt.");
 
         // Close the scanner
         scanner.close();
